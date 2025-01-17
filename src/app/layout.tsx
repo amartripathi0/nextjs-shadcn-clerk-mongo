@@ -27,8 +27,8 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <Toaster closeButton richColors />
       <html lang="en">
+        <Toaster closeButton richColors />
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
